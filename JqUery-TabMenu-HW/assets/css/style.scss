@@ -1,0 +1,33 @@
+#my-tab {
+    .tab-area {
+        .tab-main {
+            display: flex;
+            border: 1px solid yellow;
+            height: 50px;
+            align-items: center;
+            background-color: cyan;
+
+            div {
+                font-size: 25px;
+                font-weight: bold;
+                cursor: pointer;
+                height: 100%;
+                padding: 5px 10px 0 10px;
+                transition: all 0.3s;
+
+            }
+        }
+
+        .tab-body {
+            border: 1px solid darkblue;
+            padding: 10px;
+        }
+
+        .active {
+            background-color: darkgreen;
+            color: violet;
+
+        }
+        
+    }
+}
